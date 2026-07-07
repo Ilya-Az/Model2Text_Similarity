@@ -1,0 +1,13 @@
+<process>
+  <activity role="" action="Submit complaint via support portal" objects="" id="activity1"/>
+  <activity role="" action="Perform permission request" objects="" id="activity2"/>
+  <exclusiveGateway id="exclusivegateway1">
+    <branch condition="simple issue" id="branch1">
+      <activity role="" action="Send quick response" objects="" id="activity3"/>
+    </branch>
+    <branch condition="complex issue" id="branch2">
+      <activity role="" action="Conduct lunch break" objects="" id="activity4"/>
+      <activity role="" action="Ask specialists during meeting" objects="" id="activity5"/>
+    </branch>
+  </exclusiveGateway>
+</process>
