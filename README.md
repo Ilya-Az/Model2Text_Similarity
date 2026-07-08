@@ -47,7 +47,8 @@ python -m spacy download en_core_web_sm
 
 ### 4. Download required NLTK packages
 
-Uncomment the following lines in the Background.py class in line 57 to 59 before first use and run the class:
+Uncomment the following lines in the Background.py class in line 57 to 59 before first use and run the class.
+You can ignore any upcoming error message for now:
 
 ```
 nltk.download('wordnet')
